@@ -1,4 +1,5 @@
 const express = require("express");
+const PORT = process.env.PORT || 3001;
 const app = express(); //declared so we can chain on express methods
 const { animals } = require("./data/animals");
 
@@ -47,6 +48,6 @@ app.get("/api/animals", (req, res) => {
 });
 
 //listen method,2 arguments, port # and callback function
-app.listen(3001, () => {
-  console.log(`API server now on port 3001!`);
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
 });
