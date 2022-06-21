@@ -1,24 +1,16 @@
 {
-  "name": "zookeepr",
+  "name": "main",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dolcebasstrombone/zookeepr.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dolcebasstrombone/zookeepr/issues"
-  },
-  "homepage": "https://github.com/dolcebasstrombone/zookeepr#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "heroku": "^7.60.2"
+    "express": "^4.17.1"
   }
 }
